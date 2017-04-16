@@ -43,7 +43,7 @@ var appendThumb = (function(e) {
   var videoID = videoDetails.id;
 
   if (videoType == 'youtube') {
-    var thumbSRC = 'https://img.youtube.com/vi/' + videoID + '/hqdefault.jpg';
+    var thumbSRC = 'https://img.youtube.com/vi/' + videoID + '/maxresdefault.jpg';
   }
   else if (videoType == 'vimeo') {
     var xhr = new XMLHttpRequest();
